@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="IDEA with Android" type="Application" factoryName="Application" singleton="true">
-    <option name="ALTERNATIVE_JRE_PATH" value="BUNDLED" />
+    <option name="ALTERNATIVE_JRE_PATH" value="$USER_HOME$/.jdks/corretto-11.0.13" />
     <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
     <log_file alias="idea.log" path="$PROJECT_DIR$/system/idea/log/idea.log" />
     <log_file alias="build.log" path="$PROJECT_DIR$/system/idea/log/build-log/build.log" />
@@ -21,7 +21,6 @@
     <ConfigurationWrapper RunnerId="Run" />
     <method v="2">
       <option name="Make" enabled="true" />
-      <option name="Gradle.BeforeRunTask" enabled="true" tasks="setupAndroidPluginRuntimeForIdea" externalProjectPath="$PROJECT_DIR$/build/dependencies" vmOptions="" scriptParameters="" />
       <option name="BuildArtifacts" enabled="true">
         <artifact name="debugger-agent" />
       </option>
